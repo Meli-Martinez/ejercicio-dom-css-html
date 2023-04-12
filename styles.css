@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eff6e0;
+}
+
+.authorTitle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  background-color: #aec3b0;
+  color: #01161e;
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.authorBiography {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #124559;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+.authorBiography label {
+  align-self: flex-end;
+  color: #eff6e0;
+  background-color: #124559;
+  padding: 0.4rem 0.5rem;
+  font-size: 12px;
+}
+
+.authorBiography label:hover {
+  background-color: #598392;
+}
+
+.authorContainerExtraInfo {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.authorContainerExtraInfo button {
+  width: 8rem;
+  height: 3rem;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #598392;
+  color: #eff6e0;
+  border: 1px solid #eff6e0;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.authorContainerExtraInfo img {
+  border-radius: 5px;
+  width: 16rem;
+  height: 15rem;
+}
