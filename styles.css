@@ -23,14 +23,14 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   font-family: 'Ubuntu', sans-serif;
 }
 
 .authorBiography {
   width: 45%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   color: #124559;
   text-align: center;
@@ -75,4 +75,11 @@ body {
   border-radius: 5px;
   width: 16rem;
   height: 15rem;
+}
+
+.authorContainerExtraInfo li {
+  color: #124559;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5rem;
 }
